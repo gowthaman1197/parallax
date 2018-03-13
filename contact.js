@@ -1,3 +1,4 @@
+/* It is designed and developed by Gowthaman, Software Engineer. */
 $(function () {
 
     $('#contact-form').validator();
