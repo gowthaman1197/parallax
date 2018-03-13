@@ -1,0 +1,273 @@
+<!-- It is designed and developed by Gowthaman, Software Engineer. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans|Dosis:400,800">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <span class="skype-button bubble" data-contact-id="gowthaman.kutty" ></span>
+    <script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default" id="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Techon Valley</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right" id="mynav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="javascript:myscroll('services');">Services</a></li>
+            <li><a href="javascript:myscroll('how_we_work');">How we work</a></li>
+            <li><a href="javascript:myscroll('contact_us');">Contact</a></li>          
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="parallax_1 bannertop">
+      <div class="text-center">
+        <div style="padding-top: 230px;">
+          <h1>Welcome to Techon Valley</h1>
+          <p>It's a soure place for your business brands.</p>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="services">
+      <div class="container text-center">
+        <div class="content-inner">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Our Service</h2>
+            </div>
+            <div class="col-md-4">
+              <div class="service">
+                <i class="fa fa-cogs icon-color1 service-icon"></i>
+                <h3>Web Development</h3>
+                <p>We understand your ideas and implement them practically in order to give you an awesome looking website that is 100% functional and mobile responsive, customized as per your requirements on time we promised.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service">
+                <i class="fa fa-mobile icon-color1 service-icon"></i>
+                <h3>Mobile Development</h3>
+                <p>We are pioneers in Mobility solutions. We develop and design beautiful Andorid and iOS Apps that are a delight to use. Our Andorid and iOS Apps optimized to the hightest level. Your end users deserve the very best ever!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service">
+                <i class="fa fa-sitemap icon-color1 service-icon"></i>
+                <h3>Digital Marketing</h3>
+                <p>We strongly believe that Digital Marketing is very powerful to promote your digital products and increase number of vistors to your website through effective digitial marketing techniques on Internet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax_2"></div>
+    <div class="content" id="how_we_work">
+      <section  class="section how-it-works" id="how-it-works">
+        <div class="container">
+          <div class="content-inner">
+            <div class="row text-center">
+              <div class="how-it-works-heading">
+                <h2 class="section-title">How We Work</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 board">
+                <div class="board-inner">
+                  <ul class="nav nav-tabs" id="myTab">
+                    <div class="liner"></div>
+                      <li class="active">
+                        <a href="#home" aria-controls="home" role="tab" data-toggle="tab" title="User Experience">
+                          <span class="round-tabs one">
+                            <i class="glyphicon glyphicon-user"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" title="Sketch">
+                          <span class="round-tabs two">
+                            <i class="fa fa-usd"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#prototyping" aria-controls="prototyping" role="tab" data-toggle="tab" title="Prototyping">
+                          <span class="round-tabs three">
+                            <i class="fa fa-code"></i>
+                          </span> 
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#uidesign" aria-controls="uidesign" role="tab" data-toggle="tab" title="UI Design">
+                          <span class="round-tabs four">
+                            <i class="fa fa-bug"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#doner" aria-controls="doner" role="tab" data-toggle="tab" title="Development">
+                          <span class="round-tabs five">
+                            <i class="fa fa-rocket"></i>
+                          </span> 
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+                      <h3 class="head text-center">Requirement</h3>
+                      <p class="narrow text-center">
+                        Get the requirement from the clients and then decide that what technology we are going to build with.
+                      </p>                    
+                    </div>
+                    <div class="tab-pane fade" id="profile">
+                      <h3 class="head text-center">Estimation</h3>
+                      <p class="narrow text-center">
+                        Estimated the cost and timeline framed.
+                      </p>
+                    </div>
+                    <div class="tab-pane fade" id="prototyping">
+                      <h3 class="head text-center">Development</h3>
+                      <p class="narrow text-center">
+                        Design the markup, develop it as per the requirement.
+                      </p>
+                    </div>
+                    <div class="tab-pane fade" id="uidesign">
+                      <h3 class="head text-center">Report Weekly</h3>
+                        <p class="narrow text-center">
+                          As we promised to complete tasks on time, we complete it and report you.
+                        </p>
+                      </div>
+                      <div class="tab-pane fade" id="doner">
+                        <div class="text-center">
+                          <i class="img-intro icon-checkmark-circle"></i>
+                        </div>
+                        <h3 class="head text-center">Launching</h3>
+                        <p class="narrow text-center">
+                          Test all the modules as per the requirements before we launch it.
+                        </p>
+                      </div>
+                    <div class="clearfix"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="parallax_3"></div>
+    <div class="content" id="contact_us">
+      <div class="container">
+        <div class="content-inner">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+              <form id="contact-form" method="post" action="contact.php" role="form">
+                <div class="messages"></div>
+                <div class="controls">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_name">Firstname *</label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter Firstname" required="required" data-error="Firstname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_lastname">Lastname *</label>
+                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter surname " required="required" data-error="Lastname is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter email id" required="required" data-error="Valid email is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_phone">Phone</label>
+                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Enter your phone">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="form_email">Source Location *</label>
+                        <input id="source" type="text" name="source" class="form-control" placeholder="Enter source location" required="required" data-error="Source is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="destination">Destination Location *</label>
+                        <input id="destination" type="text" name="destination" class="form-control" placeholder="Enter destination location" required="required" data-error="Destination is required.">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 text-center">
+                      <input type="submit" class="btn btn-success btn-send btn-message" value="Reachout">
+                    </div>
+                  </div>                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>   
+    <script src="js/bootstrap.min.js"></script>     
+    <script type="text/javascript">
+      function myscroll(myID){
+        var offset=jQuery("#"+myID).offset();
+        window.scrollTo(0,offset.top);
+      }
+    </script>
+    <script src="js/script.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
+<!-- It is designed and developed by Gowthaman, Software Engineer. -->
